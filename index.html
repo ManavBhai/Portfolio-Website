@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- CSS only -->
+    <link href="index.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="nav">
+        <a class="navElements" onclick="scrollToSection('intro')">Intro</a>
+        <a class="navElements" onclick="scrollToSection('skills')">Skills</a>
+        <a class="navElements" onclick="scrollToSection('services')">Services</a>
+        <a class="navElements" onclick="scrollToSection('projects')">Projects</a>
+        <a class="navElements" onclick="scrollToSection('contact')">Contact</a>
+        <div class="nav-box">
+            <a class="nav-boxElement">P</a>
+            <a class="nav-boxElement">o</a>
+            <a class="nav-boxElement">r</a>
+            <a class="nav-boxElement">t</a>
+            <a class="nav-boxElement">f</a>
+            <a class="nav-boxElement">o</a>
+            <a class="nav-boxElement">l</a>
+            <a class="nav-boxElement">i</a>
+            <a class="nav-boxElement">o</a>
+        </div>
+    </nav>
+    <hr>
+    <section class="content-body">
+        <main class="main-screen" id="intro">
+            <h1>Manav Thakkar</h1>
+            <img src="gogalswithsun.jpeg" class="myphoto">
+            <br><br><br>
+            <p>I am a passionate and creative individual with a strong background
+                in web development, Android app development, logo design,
+                video editing, photo editing, and AI-based content creation.
+                Explore my portfolio and discover the possibilities!</p>
+            <br>
+        </main>
+        <section id="skills">
+
+            <div class="skill-lists">
+                <div class="skill-name">
+                    <!-- Programming Languages -->
+                    <div class="img-container">
+                        <img src="lang3.png" class="list-img">
+                    </div>
+                    <hr class="hr">
+                    <div class="textView">
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>NodeJs</li>
+                            <li>PHP</li>
+                            <li>C</li>
+                            <li>C++</li>
+                            <li>Java</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skill-name">
+                    <!-- Android Development -->
+                    <div class="img-container"><img src="an2.jpeg" class="list-img"></div>
+                    <hr class="hr">
+                    <div class="textView">
+                        Proficient in creating user-friendly Android applications,
+                        leveraging the latest technologies and design principles.
+                        Experience in developing apps that seamlessly integrate with
+                        diverse device functionalities.
+                    </div>
+                </div>
+                <div class="skill-name">
+                    <!-- Website Development -->
+                    <div class="img-container"><img src="web.jpeg" class="list-img"></div>
+                    <hr class="hr">
+                    <div class="textView">
+                        Skilled in front-end and back-end web development,
+                        with expertise in creating responsive and visually
+                        appealing websites. Well-versed in HTML, CSS, and
+                        JavaScript, and experienced in utilizing frameworks
+                        like Angular and Node.js.
+                    </div>
+                </div>
+                <div class="skill-name">
+                    <!--  Programming & Software Development  -->
+                    <div class="img-container"><img src="software.jpeg" class="list-img"></div>
+                    <hr class="hr">
+                    <div class="textView">
+                        Strong foundation in software development,
+                        incorporating best practices and principles.
+                        Proficient in Data Structures and Algorithms,
+                        enabling the development of efficient and optimized
+                        solutions for complex problems.
+                    </div>
+                </div>
+                <div class="skill-name">
+                    <!-- Database -->
+                    <div class="img-container"><img src="data.jpeg" class="list-img"></div>
+                    <hr class="hr">
+                    <div class="textView">
+                        Adept in database management systems such as
+                        MySQL and MongoDB,
+                        ensuring efficient data storage, retrieval,
+                        and manipulation. Experienced in designing and
+                        optimizing databases to meet application and
+                        business requirements.
+                    </div>
+                </div>
+                <div class="skill-name">
+                    <!-- Back-end Development -->
+                    <div class="img-container"><img src="backend.jpeg" class="list-img"></div>
+                    <hr class="hr">
+                    <div class="textView">
+                        Experienced in building scalable and performant
+                        server-side applications using Node.js and MongoDB.
+                        Proficient in creating RESTful APIs,
+                        handling authentication, and optimizing
+                        database interactions for seamless application
+                        functionality.
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Your services content -->
+        <section id="services">
+            <div class="services-list">
+                <div class="services-name">
+                    <img src="anlogo.jpeg" class="serviceLogo">
+                    <span>Android Development</span>
+                </div>
+                <div class="services-name">
+                    <img src="www4.jpeg" class="serviceLogo">
+                    <span>Website Development</span>
+                </div>
+                <div class="services-name">
+                    <img src="media.jpeg" class="serviceLogo">
+                    <span>Multimedia Expertise</span>
+                </div>
+                <div class="services-name">
+                    <img src="ui2.png" class="serviceLogo">
+                    <span class="span2">UI/UX Designing</span>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <div class="project-title">
+                <a class="boxElement">P</a>
+                <a class="boxElement">R</a>
+                <a class="boxElement">O</a>
+                <a class="boxElement">J</a>
+                <a class="boxElement">E</a>
+                <a class="boxElement">C</a>
+                <a class="boxElement">T</a>
+                <a class="boxElement">S</a>
+            </div>
+            <div class="project-text">
+                <p>Explore our diverse portfolio, 
+                    showcasing projects ranging from mobile 
+                    apps to web applications, all crafted with 
+                    precision and powered by cutting-edge technologies.</p>
+            </div>
+            <img src="git5.png" class="img" onclick="openGitHub()">
+        </section>
+
+        <section id="contact">
+            <h3>Contact</h3>
+            <p class="con-text">For inquiries or collaboration opportunities, reach out to us today!</p>
+            <div class="con-logos">
+                <img src="insta3.jpeg" class="con-logo" onclick="openInsta()">
+                <img src="linkedF.png" class="con-logo2" onclick="openLinkedIn()">
+            </div>
+        </section>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>
